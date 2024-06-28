@@ -25,6 +25,6 @@ for i in range(0,4):
     driver.find_element(By.NAME,'ctl00BodyContentBodyContentbtnBackFromModifyAct').click()
 
     #用來將文檔寫入指定路徑
-    file_path = f"C:/Users/s3919/OneDrive/桌面/爬取的文檔/Web_content{i}.txt"
+    file_path = f"your_path"
     with open(file_path, "w", encoding="utf-8") as file:
         file.write(text_content)
